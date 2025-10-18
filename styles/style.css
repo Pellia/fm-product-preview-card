@@ -30,6 +30,16 @@
   /* Fonts */
   --font-montserrat: "Montserrat", sans-serif;
   --font-fraunces: "Fraunces", sans-serif;
+
+  /* Typography */
+  --text-preset-1: 700 2rem / 100% var(--font-fraunces);
+  --text-preset-2: 700 0.875rem / 110% var(--font-montserrat);
+  --text-preset-3: 500 0.875rem / 160% var(--font-montserrat);
+  --text-preset-4: 500 0.75rem / 120% var(--font-montserrat);
+  --text-preset-5: 500 0.8125rem / 120% var(--font-montserrat);
+}
+
+body {
 }
 
 /* Footer Attribution */
