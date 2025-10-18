@@ -45,6 +45,14 @@
   --color-white: hsl(0, 0%, 100%);
   --color-green-500: hsl(158, 36%, 37%);
   --color-green-700: hsl(158, 42%, 18%);
+
+  /* Spacing */
+  --space-50: 0.25rem;
+  --space-100: 0.5rem;
+  --space-200: 1rem;
+  --space-300: 1.5rem;
+  --space-400: 2rem;
+  --space-500: 2.5rem;
 }
 
 body {
@@ -62,6 +70,7 @@ body {
   text-decoration: none;
   font-weight: bold;
   transition: opacity 0.3s ease;
+  color: var(--color-green-500);
 }
 
 .attribution a:hover {
