@@ -37,9 +37,19 @@
   --text-preset-3: 500 0.875rem / 160% var(--font-montserrat);
   --text-preset-4: 500 0.75rem / 120% var(--font-montserrat);
   --text-preset-5: 500 0.8125rem / 120% var(--font-montserrat);
+
+  /* Colors */
+  --color-black: hsl(212, 21%, 14%);
+  --color-grey: hsl(228, 12%, 48%);
+  --color-cream: hsl(30, 38%, 92%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-green-500: hsl(158, 36%, 37%);
+  --color-green-700: hsl(158, 42%, 18%);
 }
 
 body {
+  background-color: var(--color-cream);
+  color: var(--color-grey);
 }
 
 /* Footer Attribution */
