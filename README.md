@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-<!-- - Solution URL: [Frontend Mentor](https://your-solution-url.com) -->
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/product-preview-card-hkD-IA2lo_)
 - Live Site URL: [GitHub pages](https://pellia.github.io/fm-product-preview-card/)
 
 ## My process
