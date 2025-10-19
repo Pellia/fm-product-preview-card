@@ -124,7 +124,6 @@ body {
 .card__button {
   display: flex;
   justify-content: center;
-  align-items: center;
   gap: var(--space-100);
   width: 100%;
   background-color: var(--color-green-500);
@@ -132,6 +131,12 @@ body {
   font: var(--text-preset-2);
   padding: var(--space-200) var(--space-400);
   border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.4s ease-in-out;
+}
+
+.card__button:hover {
+  background-color: var(--color-green-700);
 }
 
 /* Footer Attribution */
@@ -150,4 +155,25 @@ body {
 .attribution a:hover {
   opacity: 0.8;
   text-decoration: underline;
+}
+
+/* Media Queries */
+@media screen and (max-width: 500px) {
+  .card {
+    flex-direction: column;
+  }
+
+  .card__image {
+    width: 100%;
+    border-radius: 0.5rem 0.5rem 0 0;
+    content: url(../images/image-product-mobile.jpg);
+  }
+
+  .card__content {
+    width: 100%;
+  }
+
+  .card__content > *:not(:last-child) {
+    margin-bottom: var(--space-300);
+  }
 }
